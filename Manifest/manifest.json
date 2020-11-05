@@ -1,0 +1,31 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.5",
+    "version": "1.0.0",
+    "id": "9124716f-932a-4ed4-bc7e-49066c65f93c",
+    "packageName": "com.microsoft.teams.apptemplates.base",
+    "developer": {
+        "name": "Contoso",
+        "websiteUrl": "<website url>",
+        "privacyUrl": "<privacy url>",
+        "termsOfUseUrl": "<terms of use url>"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "Template Base",
+        "full": "Teams App Template Base"
+    },
+    "description": {
+        "short": "A Short description of the app",
+        "full": "A Longer description of the app"
+    },
+    "accentColor": "#FFFFFF",
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": []
+}
